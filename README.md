@@ -1,11 +1,11 @@
-React Hello World Demo
-======================
+JavaScript React Get DOM in ComponentDidMount Demo
+==================================================
 
-Just say hello from react.
+Key: Use `ref` and `refs`.
 
 ```
 npm install
 npm start
 ```
 
-Then visit <http://localhost:8080/webpack-dev-server/>.
+Then visit <http://localhost:8080>.
