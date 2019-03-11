@@ -1,18 +1,21 @@
 module.exports = {
+  mode: "development",
   entry: './entry.jsx',
   output: {
     path: __dirname,
-    publicPath: '/assets/',
     filename: 'bundle.js'
   },
   module: {
-    loaders: [{
-      test: /\.(js|jsx)$/,
-      exclude: /node_modules/,
-      loader: 'babel',
-      query: {
-        presets: ['es2015', 'react']
-      }
+    rules: [{
+      test: /\.jsx?$/,
+      use: [{
+        loader: 'babel-loader', options: {
+          presets: [
+            '@babel/preset-env',
+            '@babel/preset-react'
+          ]
+        }
+      }]
     }]
   }
 }
