@@ -3,16 +3,16 @@
     "demo": "webpack-dev-server --open"
   },
   "devDependencies": {
-    "@babel/core": "7.2.2",
-    "@babel/preset-env": "7.2.3",
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
     "@babel/preset-react": "7.0.0",
-    "babel-loader": "8.0.5",
-    "webpack": "4.28.1",
-    "webpack-cli": "3.2.1",
-    "webpack-dev-server": "3.1.8"
+    "babel-loader": "8.0.6",
+    "webpack": "4.39.3",
+    "webpack-cli": "3.3.8",
+    "webpack-dev-server": "3.8.0"
   },
   "dependencies": {
-    "react": "16.8.2",
-    "react-dom": "16.8.2"
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
   }
 }
