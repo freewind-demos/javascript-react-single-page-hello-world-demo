@@ -1,11 +1,8 @@
-JavaScript React Get DOM in ComponentDidMount Demo
+JavaScript React Single Page Hello World Demo
 ==================================================
 
-Key: Use `ref` and `refs`.
+怎么在一个index.html中写react
 
 ```
-npm install
-npm start
+open index.html
 ```
-
-Then visit <http://localhost:8080>.
